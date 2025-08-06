@@ -1,1 +1,10 @@
 api de e-commerce utilizando nodeJs + TypeScript + Express + Firebase
+
+para utilizar a api, é necessário que você tenha dois arquivos na pasta raíz: o .env e o firebase-adminsdk1
+
+o .env possui os caminhos para acesso restrito:
+  - GOOGLE_APPLICATION_CREDENTIALS=[caminho da pasta firebase-adminsdk1]
+  - API_KEY=[CHAVE DE ACESSO para a API de seu banco de dados firebase]
+  - STORAGE_KEY=[endereço da sua api no firebase storage]
+
+o arquivo firebase-adminsdk1 possui as chaves de acesso e informações de sua conta para usufruir dos serviços do firebase
